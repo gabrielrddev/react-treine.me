@@ -1,0 +1,50 @@
+.logo {
+    font-weight: 800;
+    font-size: 25px;
+    color: #89C5CC;
+    ;
+    font-family: "Inter", sans-serif;
+    text-shadow: 0px 2px 5px rgba(140, 137, 137, 0.5);
+    margin-right: 420px;
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Mulish", sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+nav li a {
+   
+    text-decoration: none;
+    
+}
+
+.navHome {
+    color: #7D7987;
+    text-decoration: none;
+}
+
+.navSobre {
+    color: #7D7987;
+    text-decoration: none;
+}
+
+.navTreinar {
+    color: #7D7987;
+    text-decoration: none;
+}
