@@ -1,6 +1,6 @@
-import enderecoimg from '../../../../public/img/image01.jpg';
-import  {Footer}  from '../../../components/Footer/index.jsx';
-import  {Header}  from '../../../components/Header/index.jsx';
+import enderecoimg from '../../../public/img/image01.jpg';
+import  {Footer}  from '../../components/Footer/index.jsx';
+import  {Header}  from '../../components/Header/index.jsx';
 import {Link} from 'react-router-dom';
 import './styles.css'
 

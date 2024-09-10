@@ -1,35 +1,12 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import {Home} from "./routes/pages/Home/Index.jsx";
-import {About} from "./routes/pages/About/index.jsx";
-import ErrorPage from "./routes/error-page.jsx";
-import {List} from "./routes/pages/List/index.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { AuthRoutes } from './routes/auth.routes';
 
-//import do router
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-//paginas que o router controla
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home/>,
-    errorElement: <ErrorPage/>,
-  },
-  {
-    path: "List",
-    element: <List/>,
-  },
-  {
-    path:  "About",
-    element: <About/>,
-  }
-]);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+root.render(
+  <BrowserRouter>
+    <AuthRoutes />
+  </BrowserRouter>
 );
