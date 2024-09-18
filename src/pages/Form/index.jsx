@@ -14,7 +14,7 @@ export function Form() {
       
       <form  >
         <div className='containerForm'>   
-                <label for="name">Usuário:</label>
+                <label for="name">Usuáriao:</label>
                 <input type="text" name="name" id="" />
                 <label htmlFor="email">Email:</label>
                 <input type="email" name="email" id="" />
